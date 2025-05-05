@@ -1,0 +1,133 @@
+.about-we {
+  margin-top: 50px;
+}
+
+.about-we img {
+  height: 80%;
+  width: 80%;
+  margin-left: 150px;
+}
+.about-us {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+
+  gap: 30px;
+
+  transform: translateX(20%);
+}
+.about-us h1 {
+  width: 35%;
+}
+.about-us p {
+  width: 65%;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.featured-container h1 {
+  text-align: center;
+}
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.step {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.step.left {
+  transform: translateX(-60%);
+}
+.step.right {
+  transform: translateX(60%);
+}
+
+.step-header {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #4caf50;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.step h3 {
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+.step p {
+  color: #666;
+  font-size: 14px;
+}
+.teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.members {
+  display: flex;
+  gap: 50px;
+}
+.members img {
+  height: 300px;
+  width: 300px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+.img-container img:hover {
+  filter: grayscale(0%);
+ 
+}
+
+.mem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mem 
+h5 {
+  color: #707070;
+  margin-bottom: 40px;
+}
+.mem 
+h1 {
+color:#334;
+  margin-bottom: 0px;
+}
+.hover{
+  border: 1px dotted black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: -70px;
+opacity: 0;
+}
+.img-container img:hover .hover {
+  
+  opacity: 1;
+
+}
